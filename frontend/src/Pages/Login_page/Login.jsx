@@ -6,6 +6,7 @@ import './../Login_page/Login.css'
 const Login = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
   const navigate = useNavigate();
+  
 
   const handleChange = (e) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -20,6 +21,7 @@ const Login = () => {
       alert("Invalid username or password");
     }
   };
+  
 
   return (
     <div className="login-con">
