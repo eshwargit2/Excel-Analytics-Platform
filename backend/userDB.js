@@ -1,7 +1,7 @@
 // backend/userDB.js
 const mongoose = require('mongoose');
 
-//schema
+//schema username and password 
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
