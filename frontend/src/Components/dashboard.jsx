@@ -368,7 +368,7 @@ const Dashboard = () => {
               </div>
             </div>
 
-            {/* Main Content */}
+            {/* Main Content   */}
             <div className={`main-content col px-0 ${isSidebarCollapsed ? "main-expanded" : ""}`}>
               {/* Header */}
               <header className="bg-light border-bottom p-3">
